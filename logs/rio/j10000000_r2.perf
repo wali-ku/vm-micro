@@ -1,0 +1,16 @@
+# started on Sun Mar 17 22:01:03 2019
+
+
+ Performance counter stats for '../dynamorio/build/bin64/drrun ./test 10000000':
+
+      28142.072923      task-clock (msec)         #    0.999 CPUs utilized          
+                38      context-switches          #    0.001 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+            15,996      page-faults               #    0.568 K/sec                  
+    95,378,817,255      cycles                    #    3.389 GHz                    
+    50,599,998,257      instructions              #    0.53  insn per cycle         
+    12,479,033,655      branches                  #  443.430 M/sec                  
+        27,151,350      branch-misses             #    0.22% of all branches        
+
+      28.160923514 seconds time elapsed
+
