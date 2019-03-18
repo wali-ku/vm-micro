@@ -1,0 +1,16 @@
+# started on Sun Mar 17 21:51:31 2019
+
+
+ Performance counter stats for './test 10000000':
+
+        500.845175      task-clock (msec)         #    1.000 CPUs utilized          
+                 1      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                74      page-faults               #    0.148 K/sec                  
+     1,693,639,172      cycles                    #    3.382 GHz                    
+       921,165,465      instructions              #    0.54  insn per cycle         
+       220,018,029      branches                  #  439.293 M/sec                  
+        10,889,590      branch-misses             #    4.95% of all branches        
+
+       0.501072112 seconds time elapsed
+

@@ -1,0 +1,16 @@
+# started on Sun Mar 17 21:51:30 2019
+
+
+ Performance counter stats for './test 1':
+
+          0.330777      task-clock (msec)         #    0.634 CPUs utilized          
+                 0      context-switches          #    0.000 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+                51      page-faults               #    0.154 M/sec                  
+         1,051,370      cycles                    #    3.178 GHz                    
+           833,381      instructions              #    0.79  insn per cycle         
+           162,367      branches                  #  490.865 M/sec                  
+             7,202      branch-misses             #    4.44% of all branches        
+
+       0.000522020 seconds time elapsed
+
