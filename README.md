@@ -1,4 +1,4 @@
-### Indirect Jump Profiling Experiments
+# EECS-768: Indirect Jump Profiling Experiments
 The purpose of this experiment is to measure the overhead of indirect jumps when an application is executed inside DynamoRio.
 
 ## Micor-Benchmark
