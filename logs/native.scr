@@ -1,0 +1,11 @@
+set terminal pdf enhanced mono font "Times-Roman,14"
+set output "native.pdf"
+set autoscale y
+set ylabel "Execution time" offset 1.5
+set xlabel "# of loops"
+set xtics rotate by -45
+set nokey
+
+set boxwidth 0.5
+plot  "native.dat"  u 0:2:xtic(1) with boxes fs solid 0.2, \
+      ""            u 0:2:2 with labels center offset 0,1 notitle
