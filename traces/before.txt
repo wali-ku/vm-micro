@@ -1,0 +1,103 @@
+TAG  0x00007efc4674377d
+4 --  +0    m4 @0x00007efc267fbe40  65 48 a3 00 00 00 00 mov    %rax -> %gs:0x00[8byte]
+                               00 00 00 00
+4 --  +11   m4 @0x00007efc267fbdc8  65 48 a1 20 00 00 00 mov    %gs:0x20[8byte] -> %rax
+                               00 00 00 00
+4 --  +22   m4 @0x00007efc267fbd68  48 89 60 18          mov    %rsp -> 0x18(%rax)[8byte]
+4 --  +26   m4 @0x00007efc267fbeb8  48 8b a0 08 05 00 00 mov    0x00000508(%rax)[8byte] -> %rsp
+4 --  +33   m4 @0x00007efc267fbcf0  65 48 a1 00 00 00 00 mov    %gs:0x00[8byte] -> %rax
+                               00 00 00 00
+4 --  +44   m4 @0x00007efc267fc380  48 8d a4 24 38 fb ff lea    0xfffffb38(%rsp) -> %rsp
+                               ff
+4 --  +52   m4 @0x00007efc267f6a30  e8 bb 81 64 27       call   $0x000000004de0bd00 %rsp -> %rsp 0xfffffff8(%rsp)[8byte]
+4 --  +57   m4 @0x00007efc267f6500                       <label>
+4 --  +57   m4 @0x00007efc267f8f10  bf 03 00 00 00       mov    $0x00000003 -> %edi
+4 --  +62   m4 @0x00007efc267f81f8  e8 3b d1 83 4b       call   $0x0000000072000c80 %rsp -> %rsp 0xfffffff8(%rsp)[8byte]
+4 --  +67   m4 @0x00007efc267f3690  e8 bb 82 64 27       call   $0x000000004de0be00 %rsp -> %rsp 0xfffffff8(%rsp)[8byte]
+4 --  +72   m4 @0x00007efc267f8270  65 48 a3 00 00 00 00 mov    %rax -> %gs:0x00[8byte]
+                               00 00 00 00
+4 --  +83   m4 @0x00007efc267f5da0  65 48 a1 20 00 00 00 mov    %gs:0x20[8byte] -> %rax
+                               00 00 00 00
+4 --  +94   m4 @0x00007efc267cb8d0  48 8b 60 18          mov    0x18(%rax)[8byte] -> %rsp
+4 --  +98   m4 @0x00007efc267fc8a8  65 48 a1 00 00 00 00 mov    %gs:0x00[8byte] -> %rax
+                               00 00 00 00
+4 --  +109  m4 @0x00007efc267fbb88                       <label>
+4 --  +109  m4 @0x00007efc267f7ce0  48 ba a0 cc 95 46 fc mov    $0x00007efc4695cca0 -> %rdx
+                               7e 00 00
+4 --  +119  L4 @0x00007efc267fbad0  8b 12                mov    (%rdx)[4byte] -> %edx
+3 --  +121  L3                      f7 c2 04 08 00 00    test   %edx $0x00000804
+3 --  +127  L3                      0f 85 87 01 00 00    jnz    $0x00007efc46741d10
+4 --  +133  m4 @0x00007efc267fc3e0  65 48 a3 00 00 00 00 mov    %rax -> %gs:0x00[8byte]
+                               00 00 00 00
+4 --  +144  m4 @0x00007efc267f7590  65 48 a1 20 00 00 00 mov    %gs:0x20[8byte] -> %rax
+                               00 00 00 00
+4 --  +155  m4 @0x00007efc267f7518  48 89 60 18          mov    %rsp -> 0x18(%rax)[8byte]
+4 --  +159  m4 @0x00007efc267f8840  48 8b a0 08 05 00 00 mov    0x00000508(%rax)[8byte] -> %rsp
+4 --  +166  m4 @0x00007efc267f7608  65 48 a1 00 00 00 00 mov    %gs:0x00[8byte] -> %rax
+                               00 00 00 00
+4 --  +177  m4 @0x00007efc267fa5e0  48 8d a4 24 38 fb ff lea    0xfffffb38(%rsp) -> %rsp
+                               ff
+4 --  +185  m4 @0x00007efc267fc700  e8 bb 81 64 27       call   $0x000000004de0bd00 %rsp -> %rsp 0xfffffff8(%rsp)[8byte]
+4 --  +190  m4 @0x00007efc267fc7b8                       <label>
+4 --  +190  m4 @0x00007efc267fc830  bf 0a 00 00 00       mov    $0x0000000a -> %edi
+4 --  +195  m4 @0x00007efc267c72b8  e8 3b d1 83 4b       call   $0x0000000072000c80 %rsp -> %rsp 0xfffffff8(%rsp)[8byte]
+4 --  +200  m4 @0x00007efc267f5538  e8 bb 82 64 27       call   $0x000000004de0be00 %rsp -> %rsp 0xfffffff8(%rsp)[8byte]
+4 --  +205  m4 @0x00007efc267c7258  65 48 a3 00 00 00 00 mov    %rax -> %gs:0x00[8byte]
+                               00 00 00 00
+4 --  +216  m4 @0x00007efc267c6a80  65 48 a1 20 00 00 00 mov    %gs:0x20[8byte] -> %rax
+                               00 00 00 00
+4 --  +227  m4 @0x00007efc267c9368  48 8b 60 18          mov    0x18(%rax)[8byte] -> %rsp
+4 --  +231  m4 @0x00007efc267c7738  65 48 a1 00 00 00 00 mov    %gs:0x00[8byte] -> %rax
+                               00 00 00 00
+4 --  +242  m4 @0x00007efc267c9e18                       <label>
+3 --  +242  L3                      48 8b 95 70 ff ff ff mov    0xffffff70(%rbp)[8byte] -> %rdx
+3 --  +249  L3                      49 89 17             mov    %rdx -> (%r15)[8byte]
+3 --  +252  L3                      48 8d 65 d8          lea    0xffffffd8(%rbp) -> %rsp
+3 --  +256  L3                      5b                   pop    %rsp (%rsp)[8byte] -> %rbx %rsp
+3 --  +257  L3                      41 5c                pop    %rsp (%rsp)[8byte] -> %r12 %rsp
+3 --  +259  L3                      41 5d                pop    %rsp (%rsp)[8byte] -> %r13 %rsp
+3 --  +261  L3                      41 5e                pop    %rsp (%rsp)[8byte] -> %r14 %rsp
+3 --  +263  L3                      41 5f                pop    %rsp (%rsp)[8byte] -> %r15 %rsp
+3 --  +265  L3                      5d                   pop    %rsp (%rsp)[8byte] -> %rbp %rsp
+4 --  +266  m4 @0x00007efc267f7d58  65 48 89 0c 25 10 00 mov    %rcx -> %gs:0x10[8byte]
+                               00 00
+4 --  +275  m4 @0x00007efc267f7dd0  59                   pop    %rsp (%rsp)[8byte] -> %rcx %rsp
+4 --  +276  L4 @0x00007efc267fcdb8  e9 3b 79 64 27       jmp    $0x000000004de0b480 <shared_trace_ibl_ret>
+4 --  +281  m4 @0x00007efc267fa950  65 48 a3 00 00 00 00 mov    %rax -> %gs:0x00[8byte]
+                               00 00 00 00
+4 --  +292  m4 @0x00007efc267f98b0  65 48 a1 20 00 00 00 mov    %gs:0x20[8byte] -> %rax
+                               00 00 00 00
+4 --  +303  m4 @0x00007efc267fbc00  48 89 60 18          mov    %rsp -> 0x18(%rax)[8byte]
+4 --  +307  m4 @0x00007efc267fc320  48 8b a0 08 05 00 00 mov    0x00000508(%rax)[8byte] -> %rsp
+4 --  +314  m4 @0x00007efc267fc2c0  65 48 a1 00 00 00 00 mov    %gs:0x00[8byte] -> %rax
+                               00 00 00 00
+4 --  +325  m4 @0x00007efc267fc260  48 8d a4 24 38 fb ff lea    0xfffffb38(%rsp) -> %rsp
+                               ff
+4 --  +333  m4 @0x00007efc267fcf80  e8 bb 81 64 27       call   $0x000000004de0bd00 %rsp -> %rsp 0xfffffff8(%rsp)[8byte]
+4 --  +338  m4 @0x00007efc267f9c78                       <label>
+4 --  +338  m4 @0x00007efc267fb500  bf 0b 00 00 00       mov    $0x0000000b -> %edi
+4 --  +343  m4 @0x00007efc267f5bf8  e8 3b d1 83 4b       call   $0x0000000072000c80 %rsp -> %rsp 0xfffffff8(%rsp)[8byte]
+4 --  +348  m4 @0x00007efc267f3330  e8 bb 82 64 27       call   $0x000000004de0be00 %rsp -> %rsp 0xfffffff8(%rsp)[8byte]
+4 --  +353  m4 @0x00007efc267cbd88  65 48 a3 00 00 00 00 mov    %rax -> %gs:0x00[8byte]
+                               00 00 00 00
+4 --  +364  m4 @0x00007efc267cb740  65 48 a1 20 00 00 00 mov    %gs:0x20[8byte] -> %rax
+                               00 00 00 00
+4 --  +375  m4 @0x00007efc267fab70  48 8b 60 18          mov    0x18(%rax)[8byte] -> %rsp
+4 --  +379  m4 @0x00007efc267f5f30  65 48 a1 00 00 00 00 mov    %gs:0x00[8byte] -> %rax
+                               00 00 00 00
+4 --  +390  m4 @0x00007efc267f5e78                       <label>
+3 --  +390  L3                      48 8b 55 80          mov    0xffffff80(%rbp)[8byte] -> %rdx
+3 --  +394  L3                      49 89 84 24 08 04 00 mov    %rax -> 0x00000408(%r12)[8byte]
+                               00
+3 --  +402  L3                      48 89 c1             mov    %rax -> %rcx
+3 --  +405  L3                      4c 8b 9d 28 ff ff ff mov    0xffffff28(%rbp)[8byte] -> %r11
+3 --  +412  L3                      4c 8b 95 30 ff ff ff mov    0xffffff30(%rbp)[8byte] -> %r10
+3 --  +419  L3                      49 89 94 24 10 04 00 mov    %rdx -> 0x00000410(%r12)[8byte]
+                               00
+3 --  +427  L3                      5e                   pop    %rsp (%rsp)[8byte] -> %rsi %rsp
+3 --  +428  L3                      5f                   pop    %rsp (%rsp)[8byte] -> %rdi %rsp
+3 --  +429  L3                      31 c0                xor    %eax %eax -> %eax
+3 --  +431  L3                      48 85 d2             test   %rdx %rdx
+4 --  +434  L4 @0x00007efc267fd310  0f 84 7d fc f7 1f    jz     $0x00007efc467437c3
+4 --  +440  L4 @0x00007efc267f7c80  e9 66 fc f7 1f       jmp    $0x00007efc467437ab
+END 0x00007efc4674377d
